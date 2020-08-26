@@ -180,6 +180,53 @@ h2 {
     width: 180px;
 }
 
+#macbook-picture{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    top: 180px;
+    border: 15px solid #E6E6E6;
+    border-radius: 10px;
+    width: 210px;
+    margin-left: calc(18% + 1px);
+}
+#macbook-picture img{
+    width: 180px;
+}
+
+#man-picture{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    top: 180px;
+    border: 15px solid #E6E6E6;
+    border-radius: 10px;
+    width: 210px;
+    margin-left: calc(18% + 1px);
+}
+
+#man-picture img{
+    width: 180px;
+}
+
+#security-picture{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    top: 180px;
+    border: 15px solid #E6E6E6;
+    border-radius: 10px;
+    width: 210px;
+    margin-left: calc(18% + 1px);
+}
+
+#security-picture img{
+    width: 180px;
+}
+
 #featured-project{
     position: relative;
     padding: 0;
@@ -242,3 +289,115 @@ h2 {
     bottom: 7px;
 }
 
+hr{
+    background-color: #535353;
+    position: relative;
+    bottom: 110px;
+    width: 695px;
+}
+
+#macbook-picture img{
+    width: 180px;
+}
+
+#man-picture img{
+    width: 180px;
+}
+
+#security-picture img{
+    width: 180px;
+}
+
+
+
+
+/*media queries start here*/
+@media screen and (min-width:768px){
+    nav.navbar{
+        margin:30px 0 5px 0;
+        height: 50px;
+        width: 800px;
+        padding: 0;
+    }
+
+    .logo{
+        position: absolute;
+        margin-top: 5px;
+        left:55px;
+    }
+    .header1{
+        position: relative;
+        bottom: 50px;
+    }
+    h2 {
+        font-size: 32px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        top:0;
+        right: 105px;
+    }
+
+    #items-menu{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top:-75px;
+        width: 300px;
+        margin-left: 30px;
+        padding: 0;
+        text-align: center;
+        left: 450px;
+    }
+
+    .center-paragraph p{
+        font-size: 34px;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        bottom: 115px;
+    }
+
+    .location-paragraph{
+        position: relative;
+        top:20px;
+    }
+
+    #circles{
+        position: relative;
+        top:150px;
+        left:64px;
+        width: 241px;
+
+    }
+
+    #circles{
+        position: relative;
+        top:30px;
+        left:150px;
+        width: 241px;
+    }
+
+    #circles2{
+        position: relative;
+        top:-130px;
+        left: 400px;
+        width: 241px;
+    }
+
+    #selected-work{
+        position: relative;
+        top: -70px;
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        right: 39%;
+    }
+
+
+
+}
