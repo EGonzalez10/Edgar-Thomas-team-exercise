@@ -6,221 +6,19 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <style>
-        body{
-            background-color: #F0F0F0;
-            position: relative;
-        }
-        nav.navbar{
-            margin-top: 40px;
-            height: 50px;
-            width: 340px;
-            padding: 0;
-        }
-
-        .img-logo{
-            display: inline-block;
-            height: 105px;
-            width: 105px;
-        }
-        .logo{
-            position: absolute;
-            left:110px;
-        }
-        .container{
-            margin: 0;
-            padding: 0;
-            width: 80px;
-            height: 80px;
-            position: relative;
-        }
-        h2 {
-            font-size: 32px;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-            position: relative;
-            top:40px;
-        }
-
-        .items-stuff{
-           font-size: 14px;
-        }
-
-        #items-menu{
-            display: flex;
-            justify-content: space-evenly;
-            position: relative;
-            top:60px;
-            width: calc(100% - 61px);
-            margin-left: 30px;
-            padding: 0;
-            text-align: center;
-        }
-
-        .center-paragraph{
-            position: relative;
-            top:100px;
-        }
-
-        .center-paragraph p{
-            font-size: 34px;
-            font-weight: bold;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-        }
-
-        .location-paragraph{
-            position: relative;
-            top:118px;
-        }
-
-        .location-paragraph p{
-            font-size: 24px;
-            font-weight: bold;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-        }
-
-        #circles{
-            position: relative;
-            top:150px;
-            left:64px;
-            width: 241px;
-        }
-        #circles2{
-            position: relative;
-            top:110px;
-            left: 64px;
-            width: 241px;
-        }
-
-        .circle-item1{
-            background-color:#E6563B;
-            padding:10px;
-            margin-top:5px;
-            margin-bottom: 50px;
-            margin-right:20px;
-            border-radius:50%;
-            font-size:20px;
-            width: 105px;
-            height: 105px;
-            color: white;
-            font-weight: bold;
-            border: 10px solid white;
-
-
-        }
-
-        .circle-items2{
-            background-color: #DEA03D;
-            padding:10px;
-            margin-top:5px;
-            margin-bottom: 50px;
-            margin-right:0px;
-            border-radius:50%;
-            font-size:17px;
-            width: 105px;
-            height: 105px;
-            color: white;
-            font-weight: bold;
-            border: 10px solid white;
-
-        }
-
-        .circle-items3{
-            background-color: #7CB06C;
-            padding:10px;
-            margin-top:5px;
-            margin-bottom: 50px;
-            margin-right:20px;
-            border-radius:50%;
-            font-size:17px;
-            width: 105px;
-            height: 105px;
-            color: white;
-            font-weight: bold;
-            border: 10px solid white;
-        }
-
-        .circle-items4{
-            background-color: #00ABA9;
-            padding:10px;
-            margin-top:5px;
-            margin-bottom: 50px;
-            margin-right:0px;
-            border-radius:50%;
-            font-size:20px;
-            width: 105px;
-            height: 105px;
-            color: white;
-            font-weight: bold;
-            border: 10px solid white;
-        }
-        #circles p {
-            line-height: 65px;
-        }
-        #circles2 p{
-            line-height: 65px;
-        }
-        #selected-work{
-            position: relative;
-            top: 150px;
-            font-size: 15px;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-        }
-        #apple-picture{
-            position: relative;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-            top: 180px;
-            border: 15px solid #E6E6E6;
-            border-radius: 10px;
-            width: 210px;
-            margin-left: calc(18% + 1px);
-        }
-
-        #apple-picture img{
-            width: 180px;
-        }
-
-        #featured-project{
-            position: relative;
-            padding: 0px;
-            margin: 0;
-            text-align: left;
-            top: 189px;
-            font-size: 10px;
-            left: calc(18% + 1px);
-        }
-        #icon1{
-            background-color: #E6563B;
-            margin-top:5px;
-            margin-right:25px;
-            border-radius:50%;
-            font-size:13px;
-            width: 18px;
-            height: 18px;
-            font-weight: bold;
-            text-align:center;
-        }
-
-
-
-    </style>
+    <link rel="stylesheet" href="design.css">
 </head>
 <body>
+
+<!--Nav bar begins -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
         <div class="logo">
             <img class="img-logo" src="img/logo.png">
         </div>
  </nav>
+<!--Nav bar ends-->
 
+<!--Header Begins -->
 <div class="header1">
     <div class="row">
         <div class="col-12">
@@ -228,21 +26,30 @@
         </div>
     </div>
 </div>
+<!--Header Ends -->
+
+<!--Items menu -->
 <div id="items-menu" class="row text-center">
     <div class="items-stuff">Services</div>
     <div class="items-stuff">Work</div>
     <div class="items-stuff">Blog</div>
     <div class="items-stuff">Contact</div>
 </div>
+<!--Items Menu -->
 
+<!--Center Paragraph -->
 <div class="center-paragraph">
     <p>Visual Design & Web Development</p>
 </div>
+<!--Center Paragraph-->
 
+<!--Location-->
 <div class="location-paragraph">
     <p>From Park City, Utah</p>
 </div>
+<!--location -->
 
+<!--circles-->
 <div id="circles" class="row text-center">
     <div class="circle-item1"><p>Design</p></div>
     <div class="circle-items2"><p>Develop</p></div>
@@ -252,31 +59,42 @@
     <div class="circle-items3"><p>Support</p></div>
     <div class="circle-items4"><p>Host</p></div>
 </div>
+<!--circles-->
 
+<!--selected work-->
 <div id="selected-work">
     <p>Selected Work</p>
 </div>
+<!--selective work -->
 
+<!--picture-->
 <div id="apple-picture" >
     <img src="img/images/apple-ipad.jpg">
 </div>
+<!--Picture-->
 
+<!--featured project & icons-->
 <div id="featured-project">
     <p>
         Featured Project
     </p>
-    <div id="icon1">
-        D
+    <div id="icon-placement">
+
+        <div id="icon1">
+            D
+        </div>
+         <div id="icon2">
+             <p>D</p>
+        </div>
+        <div id="icon3">
+            <p>S</p>
+        </div>
+        <div id="icon4">
+            <p>H</p>
+        </div>
     </div>
-    <div id="icon2">
-        <p>D</p>
-    </div>
-    <div id="icon3">
-        <p>S</p>
-    </div>
-    <div id="icon4">
-        <p>H</p>
-    </div>
+<!--    featured project & icons -->
+
 </div>
 
 
