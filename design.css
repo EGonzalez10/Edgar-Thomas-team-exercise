@@ -242,3 +242,74 @@ h2 {
     bottom: 7px;
 }
 
+/*media queries start here*/
+@media screen and (min-width:768px){
+    nav.navbar{
+        margin:30px 0 5px 0;
+        height: 50px;
+        width: 800px;
+        padding: 0;
+    }
+
+    .logo{
+        position: absolute;
+        margin-top: 5px;
+        left:55px;
+    }
+    .header1{
+        position: relative;
+        bottom: 50px;
+    }
+    h2 {
+        font-size: 32px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        top:0;
+        right: 105px;
+    }
+
+    #items-menu{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top:-75px;
+        width: 300px;
+        margin-left: 30px;
+        padding: 0;
+        text-align: center;
+        left: 450px;
+    }
+
+    .center-paragraph p{
+        font-size: 34px;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        bottom: 115px;
+    }
+
+    .location-paragraph{
+        position: relative;
+        top:20px;
+    }
+
+    #circles{
+        position: relative;
+        top:150px;
+        left:64px;
+        width: 241px;
+
+    }
+
+    #circles2{
+        position: relative;
+        top:110px;
+        left: 64px;
+        width: 241px;
+    }
+
+}
