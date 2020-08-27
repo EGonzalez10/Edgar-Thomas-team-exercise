@@ -718,4 +718,20 @@ hr{
         left: 600px;
         bottom: 591px;
     }
+
+    #last-tweet{
+        position: relative;
+        left:550px;
+        bottom: 550px;
+    }
+
+    #last-tweet-paragraph{
+        position: relative;
+        left: 512px;
+        bottom: 550px;
+    }
+
+    #last-tweet-paragraph p{
+        width: 500px;
+    }
 }
