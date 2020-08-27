@@ -701,4 +701,21 @@ hr{
         bottom: 460px;
     }
 
+    #header-mobile-phone{
+        position: relative;
+        left:600px;
+        bottom: 719px;
+    }
+
+    #header-head{
+        position: relative;
+        left:600px;
+        bottom:657px;
+    }
+
+    #header-ipad{
+        position: relative;
+        left: 600px;
+        bottom: 591px;
+    }
 }
