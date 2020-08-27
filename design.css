@@ -668,5 +668,54 @@ hr{
         bottom: 7px;
     }
 
+    #mobile-phone img{
+        width: 80px;
+        position: relative;
+        left: 65%;
+    }
 
+    #mobile-phone{
+        position: relative;
+        bottom: 550px;
+    }
+
+    #face img{
+        width: 80px;
+        position: relative;
+        left:65%;
+    }
+
+    #face{
+        position: relative;
+        bottom: 505px;
+    }
+
+    #ipad img{
+        width: 80px;
+        position: relative;
+        left: 65%;
+    }
+
+    #ipad{
+        position: relative;
+        bottom: 460px;
+    }
+
+    #header-mobile-phone{
+        position: relative;
+        left:600px;
+        bottom: 719px;
+    }
+
+    #header-head{
+        position: relative;
+        left:600px;
+        bottom:657px;
+    }
+
+    #header-ipad{
+        position: relative;
+        left: 600px;
+        bottom: 591px;
+    }
 }
