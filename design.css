@@ -236,7 +236,6 @@ h2 {
     font-size: 10px;
     left: calc(18% + 1px);
     display: flex;
-
 }
 #icon1{
     background-color: #E6563B;
@@ -397,7 +396,277 @@ hr{
         text-align: center;
         right: 39%;
     }
+    section {
+        display: flex;
+        margin:0;
+        align-content: flex-start;
+    }
+    #apple-picture{
+        margin: 0;
+        left:3%;
+        top: -55px;
+    }
 
+    #macbook-picture{
+        margin: 0;
+        left: 7%;
+        top: -55px;
+    }
+    #man-picture{
+        margin: 0;
+        left: 3%;
+        top: 5px;
+    }
+    #security-picture{
+        margin: 0;
+        left: 7%;
+        top: 5px;
+    }
+    #featured-project2{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        top: -235px;
+        font-size: 10px;
+        left: calc(4% + 1px);
+        display: flex;
+    }
+    #featured-project3{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        top: -290px;
+        font-size: 10px;
+        left: calc(35% + 1px);
+        display: flex;
+    }
+    #featured-project4{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        top: -125px;
+        font-size: 10px;
+        left: calc(4% + 1px);
+        display: flex;
+    }
+
+    #icon-md1{
+        background-color: #E6563B;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon-md2{
+        background-color: #EB9D3A;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon-md3{
+        background-color: #7CB06C;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon-md4{
+        background-color: #00ABA9;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+
+    #icon-md1\.1{
+        background-color: #E6563B;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon-md2\.1{
+        background-color: #EB9D3A;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon-md3\.1{
+        background-color: #7CB06C;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+
+    #icon-md4\.1{
+        background-color: #00ABA9;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+
+    #icon-md1\.2{
+        background-color: #E6563B;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon-md2\.2{
+        background-color: #EB9D3A;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon-md3\.2{
+        background-color: #7CB06C;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon-md4\.2{
+        background-color: #00ABA9;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+
+    #icon-placement2{
+        position: relative;
+        left: 113px;
+        display: flex;
+        bottom: 37px;
+    }
+    #icon-placement3{
+        position: relative;
+        left: 113px;
+        display: flex;
+        bottom: 37px;
+    }
+    #icon-placement4{
+        position: relative;
+        left: 113px;
+        display: flex;
+        bottom: 37px;
+    }
+    #featured-project{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        top: 15px;
+        font-size: 10px;
+        left: calc(34% + 1px);
+        display: flex;
+    }
+    #icon1{
+        background-color: #E6563B;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon2{
+        background-color: #EB9D3A;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon3{
+        background-color: #7CB06C;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon4{
+        background-color: #00ABA9;
+        margin-top:5px;
+        margin-right:3px;
+        border-radius:50%;
+        font-size:13px;
+        width: 18px;
+        height: 18px;
+        font-weight: bold;
+        text-align:center;
+    }
+    #icon-placement{
+        position: relative;
+        left: 45px;
+        display: flex;
+        bottom: 7px;
+    }
 
 
 }
