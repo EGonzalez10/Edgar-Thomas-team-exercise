@@ -1,7 +1,6 @@
 
 body{
     background-color: #F0F0F0;
-    overflow-x: hidden;
 }
 
 nav{
@@ -320,12 +319,12 @@ div a{
 
     #phone-container{
         position: absolute;
-        left: 45%;
-        top: 112%;
+        left: 33%;
+        top: 103%;
     }
 
     #mobile-phone{
-        width: 185px;
+        width: 211px;
         border: 5px solid #e6e6e6;
         border-radius: 10px;
     }
@@ -333,11 +332,11 @@ div a{
     #security-container{
         position: absolute;
         left: 3%;
-        top: 112%;
+        top: 103%;
     }
 
     #security{
-        width: 185px;
+        width: 211px;
         border: 5px solid #e6e6e6;
         border-radius: 10px;
     }
@@ -345,20 +344,20 @@ div a{
 
     #featured-project-container2{
         position: relative;
-        top:380px;
-        right: -24px;
+        top:348px;
+        right: 66px;
     }
 
     #featured-project-container3{
         position: relative;
-        top:566px;
-        right: -24px;
+        top:477px;
+        right: 302px;
     }
 
     #featured-project-container4{
         position: relative;
-        top:524px;
-        right: 294px;
+        top:437px;
+        right: 67px;
     }
 
     #icon1\.1{
@@ -499,19 +498,19 @@ div a{
     #icon-placement2{
         display: flex;
         position: relative;
-        left: 198px;
+        left: 382px;
         width: 84px;
         margin: 0px;
-        top: 461px;
+        top: 204px;
     }
 
     #icon-placement3{
         display: flex;
         position: relative;
-        right: -520px;
+        left: 146px;
         width: 84px;
         margin: 0px;
-        top: 211px;
+        top: 350px;
     }
 
     #icon-placement4{
@@ -526,7 +525,7 @@ div a{
     #head img{
         width: 80px;
         position: relative;
-        left: 79%;
+        left: 63%;
     }
 
     #head{
@@ -537,7 +536,7 @@ div a{
     #face img{
         width: 80px;
         position: relative;
-        left:79%;
+        left:63%;
     }
 
     #face{
@@ -548,7 +547,7 @@ div a{
     #ipad img{
         width: 80px;
         position: relative;
-        left: 79%;
+        left: 63%;
     }
 
     #ipad{
@@ -558,25 +557,26 @@ div a{
 
     #header-mobile-phone{
         position: relative;
-        right: -91%;
+        right: -74%;
         bottom:175px;
     }
 
     #header-head{
         position: relative;
-        left: 700px;
+        left: 572px;
         bottom: 122px;
     }
 
     #header-ipad{
         position: relative;
-        left: 700px;
+        left: 572px;
         bottom: 72px;
     }
 
     #last-tweet{
         position: relative;
-        left: 660px;
+        left: 484px;
+        bottom: 38px;
     }
 
     #last-tweet h5{

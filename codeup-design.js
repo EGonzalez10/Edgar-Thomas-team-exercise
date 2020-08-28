@@ -5,7 +5,7 @@
 // window.addEventListener('scroll', noScroll);
 
 function disableScroll() {
-    document.body.style.overflow = 'hidden';
+    document.getElementById('no-scroll').style.overflow = 'hidden';
     document.querySelector('html').scrollTop = window.scrollY;
 }
 
