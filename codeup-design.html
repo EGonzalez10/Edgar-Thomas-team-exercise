@@ -3,107 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <title>Codeup Design</title>
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://kit.fontawesome.com/fb803bcdbe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="design.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
+<nav>
+    <span>
+        <img src="img/logo.png">
+    </span>
+</nav>
+<!--header with logo-->
 
-<!--Nav bar begins -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light"> 
-        <div class="logo">
-            <img class="img-logo" src="img/logo.png">
-        </div>
- </nav>
-<!--Nav bar ends-->
-
-<!--Header Begins -->
-<div class="header1">
-    <div class="row">
-        <div class="col-12">
-            <h2>codeup design</h2>
-        </div>
-    </div>
-</div>
-<!--Header Ends -->
-
-<!--Items menu -->
-<div id="items-menu" class="row text-center">
-    <div class="items-stuff">Services</div>
-    <div class="items-stuff">Work</div>
-    <div class="items-stuff">Blog</div>
-    <div class="items-stuff">Contact</div>
-</div>
-<!--Items Menu -->
-
-<!--Center Paragraph -->
-<div class="center-paragraph">
-    <p>Visual Design & Web Development</p>
-</div>
-<!--Center Paragraph-->
-
-<!--Location-->
-<div class="location-paragraph">
-    <p>From Park City, Utah</p>
-</div>
-<!--location -->
-
-<!--circles-->
-<div id="circles" class="row text-center">
-    <div class="circle-item1"><p>Design</p></div>
-    <div class="circle-items2"><p>Develop</p></div>
+<div id="header-container">
+    <h1 id="codeup-design">codeup design</h1>
 </div>
 
-<div id="circles2" class="row text-center">
-    <div class="circle-items3"><p>Support</p></div>
-    <div class="circle-items4"><p>Host</p></div>
-</div>
-<!--circles-->
-
-<hr class="	d-none d-sm-block">
-
-<!--selected work-->
-<div id="selected-work">
-    <p>Selected Work</p>
-</div>
-<!--selective work -->
-
-<!--picture(s)-->
-
-<section id="top-pictures">
-    <div id="apple-picture">
-        <img src="img/images/apple-ipad.jpg" alt="picture of apples">
-    </div>
-
-    <div id ="macbook-picture"class="pictures d-none d-sm-block">
-        <img src="img/images/macbook.jpg" alt="macbook picture">
+<!--items menu-->
+<section id="items-menu">
+    <div>
+        <a href="#">Services</a>
+        <a href="#">Work</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
     </div>
 </section>
 
-<section id="bottom-pictures">
-    <div id="man-picture" class="pictures d-none d-sm-block">
-        <img src="img/images/man.jpg" alt="picture of man made of numbers">
-    </div>
-    <div id="security-picture" class="pictures d-none d-sm-block">
-        <img src="img/images/security.jpg" alt="picture of the word 'security'">
+<!--first header-->
+<section id="visual-design">
+    <div>Visual Design & Web Development</div>
+</section>
+
+<!--location-->
+<section id="location">
+    <div>From Park City, Utah</div>
+</section>
+
+<!--first 2 circles-->
+<section id="design-container">
+    <div id="design"><p>Design</p></div>
+    <div id="develop"><p>Develop</p></div>
+</section>
+
+<!--second 2 circles-->
+<section id="support-container">
+    <div id="support"><p>Support</p></div>
+    <div id="host"><p>Host</p></div>
+</section>
+
+<!--line on page-->
+<div id="line-container">
+    <hr id="line-on-page" class="d-none d-sm-block">
+</div>
+<!--selected work -->
+<div id="selected-work-container">
+    <p id="Selected Work">Selected Work</p>
+</div>
+
+<!--ipad photo-->
+<div id="apple-ipad-container">
+    <img id="apple-ipad" src="img/images/apple-ipad.jpg">
+</div>
+
+<section id="featured-section">
+    <div id="featured-project-container" >
+        <div>
+            <p id="featured-project">Featured Project</p>
+        </div>
     </div>
 </section>
-<!--Picture(s)-->
 
-<!--featured project & icons-->
-<div id="featured-project">
-    <p>
-        Featured Project
-    </p>
+<section id="featured-section2" class="d-none d-sm-block">
+    <div id="featured-project-container2" >
+        <div>
+            <p id="featured-project2">Featured Project</p>
+        </div>
+    </div>
+</section>
+
+<section id="featured-section3" class="d-none d-sm-block">
+    <div id="featured-project-container3" >
+        <div>
+            <p id="featured-project3">Featured Project</p>
+        </div>
+    </div>
+</section>
+
+<section id="featured-section4" class="d-none d-sm-block">
+    <div id="featured-project-container4" >
+        <div>
+            <p id="featured-project4">Featured Project</p>
+        </div>
+    </div>
+</section>
+
+
+<div id="placement-container">
     <div id="icon-placement">
 
         <div id="icon1">
             D
         </div>
-         <div id="icon2">
-             <p>D</p>
+        <div id="icon2">
+            <p>D</p>
         </div>
         <div id="icon3">
             <p>S</p>
@@ -113,79 +115,83 @@
         </div>
     </div>
 </div>
-<div id="featured-project2" class="d-none d-md-block">
-    <p>
-        Featured Project
-    </p>
+
+<div class="d-none d-sm-block" id="macbook-container" >
+    <img id="macbook" src="img/images/macbook.jpg">
+</div>
+
+<div class="d-none d-sm-block" id="phone-container">
+    <img id="mobile-phone" src="img/images/mobile-phone.jpg">
+</div>
+
+<div class="d-none d-sm-block" id="security-container">
+    <img id="security" src="img/images/security.jpg">
+</div>
+
+<!--medium page icons-->
+<div class="d-none d-sm-block" id="placement-container2">
     <div id="icon-placement2">
 
-        <div id="icon-md1">
+        <div id="icon1.1">
             D
         </div>
-        <div id="icon-md2">
+        <div id="icon2.1">
             <p>D</p>
         </div>
-        <div id="icon-md3">
+        <div id="icon3.1">
             <p>S</p>
         </div>
-        <div id="icon-md4">
+        <div id="icon4.1">
             <p>H</p>
         </div>
     </div>
 </div>
-<div id="featured-project3" class="d-none d-md-block">
-    <p>
-        Featured Project
-    </p>
+
+<div class="d-none d-sm-block" id="placement-container3">
     <div id="icon-placement3">
 
-        <div id="icon-md1.1">
+        <div id="icon1.2">
             D
         </div>
-        <div id="icon-md2.1">
+        <div id="icon2.2">
             <p>D</p>
         </div>
-        <div id="icon-md3.1">
+        <div id="icon3.2">
             <p>S</p>
         </div>
-        <div id="icon-md4.1">
+        <div id="icon4.2">
             <p>H</p>
         </div>
     </div>
 </div>
-<div id="featured-project4" class="d-none d-md-block">
-    <p>
-        Featured Project
-    </p>
+
+<div class="d-none d-sm-block" id="placement-container4">
     <div id="icon-placement4">
 
-        <div id="icon-md1.2">
+        <div id="icon1.3">
             D
         </div>
-        <div id="icon-md2.2">
+        <div id="icon2.3">
             <p>D</p>
         </div>
-        <div id="icon-md3.2">
+        <div id="icon3.3">
             <p>S</p>
         </div>
-        <div id="icon-md4.2">
+        <div id="icon4.3">
             <p>H</p>
         </div>
     </div>
 </div>
 
-<!--    featured project & icons -->
-
-<!--The last -->
 <div id="the-last" class="d-none d-md-block">
-    <div id="mobile-phone">
-        <img src="img/images/mobile-phone.jpg" alt="picture of mobile phone">
-    </div>
     <div id="face">
+        <img src="img/images/man.jpg" alt="picture of mobile phone">
+    </div>
+    <div id="head">
         <img src="img/images/head.jpg" alt="picture of a head">
     </div>
     <div id="ipad">
-         <img src="img/images/ipad.jpg" alt="picture of ipad">
+        <img src="img/images/ipad.jpg" alt="picture of ipad">
     </div>
     <div id="header-mobile-phone">
         <h4>The admin bar and absolute positioning</h4>
@@ -198,7 +204,12 @@
     </div>
 </div>
 
+<!--the last tweet-->
 
+<div id="last-tweet" class="d-none d-md-block" >
+    <h5>The Last Tweet</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad at blanditiis culpa iste quasi, rerum unde! Commodi cumque dolores doloribus eaque facilis modi, odit perspiciatis porro repellat repellendus similique.</p>
+</div>
 
 
 
